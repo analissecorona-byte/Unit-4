@@ -16,12 +16,13 @@ public class QuadraticFormula {
         if (discriminant > 0) {
             double sol1 = ((-b + Math.sqrt(discriminant)) / (2 * a));
             double sol2 = ((-b - Math.sqrt(discriminant)) / (2 * a));
-            System.out.println("Root = " + sol1 + "," + sol2);
+            System.out.println("Root 1 = " + sol1);
+            System.out.println("Root 2 = " + sol2);
         } else if (discriminant == 0) {
             double sol1 = (-b / (2 * a));
             System.out.println("Root = " + sol1);
         } else {
-            System.out.println(" No real solution");
+            System.out.println("No real solution");
         }
     }
 }
